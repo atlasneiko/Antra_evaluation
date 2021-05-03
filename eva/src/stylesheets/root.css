@@ -181,12 +181,14 @@ html {
 	background-attachment: fixed;
 	background-attachment: center center;
 	color: white;
-	padding: 60px 30px;
+	padding: 60px 20px;
 }
 
 .summary .row {
-	padding: 50px 6%;
+	/* padding: 50px 6%; */
 	width: 100%;
+	margin: 0;
+	padding: 40px 0;
 }
 
 .summary h3 {

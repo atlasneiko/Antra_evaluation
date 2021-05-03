@@ -1,3 +1,5 @@
+
+
 p.btn.btn-default.btn-border {
 	padding: 6px 12px;
 }
@@ -15,6 +17,7 @@ p.btn.btn-default.btn-border {
 	display: flex;
 	justify-content: center;
 }
+
 @media only screen and (max-width: 1200px) {
 	.projects .container-fluid > .row:nth-child(3) {
 		/* background: pink; */

@@ -135,8 +135,10 @@ const Home = () => {
             </div>
 
             <div className="passion-summary">
-              <div className="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
-                <img className="img-responsive" src="./images/passion.svg" alt="passion img" />
+              <div className="col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2 ">
+                <div className="passion-img">
+                  <img className="img-responsive" src="./images/passion.svg" alt="passion img" />
+                </div>
               </div>
 
               <div className="col-sm-4 col-md-4">
