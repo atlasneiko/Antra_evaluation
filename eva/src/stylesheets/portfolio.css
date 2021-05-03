@@ -1,0 +1,74 @@
+p.btn.btn-default.btn-border {
+	padding: 6px 12px;
+}
+.luvtalk-project,
+.strike-zone-project,
+.personal-website-project {
+	width: 25vw;
+	height: 25vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+.see-more-button {
+	display: flex;
+	justify-content: center;
+}
+@media only screen and (max-width: 1200px) {
+	.projects .container-fluid > .row:nth-child(3) {
+		/* background: pink; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.projects .container-fluid > .row:nth-child(3) > div {
+		/* background: pink; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.luvtalk-project,
+	.strike-zone-project,
+	.personal-website-project {
+		margin-bottom: 30px;
+		width: 60vw;
+		height: 40vw;
+		justify-content: space-around;
+	}
+	.luvtalk-project h3,
+	.strike-zone-project h3,
+	.personal-website-project h3 {
+		/* background: blue; */
+		font-size: 35px;
+	}
+	.luvtalk-project > p,
+	.strike-zone-project > p,
+	.personal-website-project > p {
+		font-size: 20px;
+	}
+	.project-more-info {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 800px) {
+	/* .luvtalk-project > p,
+	.strike-zone-project > p,
+	.personal-website-project > p {
+		font-size: 14px;
+	} */
+	.luvtalk-project,
+	.strike-zone-project,
+	.personal-website-project {
+		width: 70vw;
+		height: 70vw;
+	}
+	p.btn.btn-default.btn-border {
+		margin-top: 0;
+		/* background-color: pink; */
+	}
+}

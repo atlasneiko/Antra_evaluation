@@ -1,0 +1,12 @@
+@media screen and (max-width: 900px) {
+	.banner-buttons {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* background-color: pink; */
+	}
+	.banner-buttons div {
+		margin-left: 0;
+		width: fit-content;
+	}
+}

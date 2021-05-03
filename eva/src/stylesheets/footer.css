@@ -1,0 +1,25 @@
+.media-links {
+	display: flex;
+	justify-content: center;
+}
+@media only screen and (max-width: 1200px) {
+	.media-links .col-sm-1.col-md-1 {
+		width: 12%;
+		/* background: pink; */
+	}
+}
+@media only screen and (max-width: 800px) {
+	.media-links .col-sm-1.col-md-1 {
+		width: 20%;
+		/* background: pink; */
+	}
+	.footer .container-fluid .row:nth-child(2) h4 {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.media-links .col-sm-1.col-md-1 {
+		width: 25%;
+		/* background: pink; */
+	}
+}
